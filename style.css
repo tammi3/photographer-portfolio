@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(#1c1c1c, #323232);
+}
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+header h1 {
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  display: inline-block;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #fff;
+}
+header ul li a:hover {
+  color: rgb(109, 104, 103);
+}
+.main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 20px 100px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+.main img {
+  width: 500px;
+  height: 600px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.main .main-img2 {
+  width: 500px;
+  height: 700px;
+  margin-bottom: -250px;
+}
+.main h1 {
+  position: absolute;
+  bottom: 20%;
+  right: 100px;
+  font-weight: 900;
+  font-size: 7em;
+  margin-left: 40px;
+}
+.main h1 i {
+  font-style: normal;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.main h1 :nth-child(1) {
+  color: #fff;
+  background-color: #000000;
+  position: absolute;
+  margin-bottom: 150px;
+  right: 50px;
+  bottom: 50%;
+}
+.main h1 :nth-child(2) {
+  color: #000000;
+  background-color: #fff;
+}
+#about {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px 100px;
+}
+#about .about-text {
+  width: 100%;
+  padding: 50px 30px;
+  background-color: #fff;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+#about h1 {
+  font-size: 4em;
+}
+#about p {
+  font-size: 1.5em;
+  line-height: 2;
+}
+#about img {
+  width: 500px;
+  height: 700px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+#services {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px 100px;
+}
+#services img {
+  width: 500px;
+  height: 700px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+#services .service-text {
+  justify-content: center;
+  color: #fff;
+  width: 100%;
+  padding: 40px 40px;
+  background-color: #000000;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+#services .service-text div {
+  padding: 10px 20px;
+}
+#services .service-text div:last-child {
+  padding-bottom: 0;
+}
+#services .service-text h2 {
+  font-size: 3em;
+}
+#services .service-text p {
+  font-size: 1.5em;
+}
+.bookings {
+  font-size: 2.5em;
+  font-weight: 400;
+  padding: 40px 100px;
+  text-align: center;
+}
+.bookings h1 {
+  background-color: #fff;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+#contact {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px 100px;
+}
+#contact img {
+  width: 600px;
+  height: 700px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+#contact .form {
+  justify-content: center;
+  width: 100%;
+  padding: 40px 40px;
+  background-color: #fff;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#contact .form .inputBox {
+  margin-bottom: 40px;
+}
+#contact .form .inputBox input {
+  width: 100%;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000000;
+  border-bottom: 2px solid #000000;
+}
+#contact .form .inputBox input::placeholder {
+  color: #000000;
+}
+#contact .form .inputBox textarea {
+  width: 100%;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  min-height: 150px;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000000;
+  border-bottom: 2px solid #000000;
+}
+#contact .form .inputBox textarea::placeholder {
+  color: #000000;
+}
+#contact .form .inputBox input[type="sumbit"] {
+  width: 150px;
+  background: #000000;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 100px;
+  padding: 20px 20px;
+  background-color: #fff;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+footer ul li a {
+  text-decoration: none;
+  font-size: 1em;
+  color: #000000;
+}
+@media (max-width: 1269px) {
+  header {
+    padding: 20px 50px;
+  }
+  header ul li a {
+    margin-left: 20px;
+  }
+  .main {
+    padding: 20px 50px;
+  }
+
+  .main .main-img2 {
+    display: none;
+  }
+
+  .main h1 {
+    font-size: 6em;
+  }
+  .main h1 :nth-child(1) {
+    color: #000000;
+    background-color: #fff;
+  }
+  .main h1 :nth-child(2) {
+    color: #fff;
+    background-color: #000000;
+  }
+  #about {
+    padding: 20px 50px;
+  }
+
+  #about h1 {
+    font-size: 3em;
+  }
+  #about p {
+    font-size: 1.2em;
+  }
+  #about img {
+    width: 500px;
+    height: 600px;
+  }
+  #services {
+    padding: 20px 50px;
+  }
+  #services .service-text h2 {
+    font-size: 2em;
+  }
+  #services .service-text p {
+    font-size: 1.2em;
+  }
+  #services img {
+    width: 500px;
+    height: 600px;
+  }
+  #contact {
+    padding: 20px 50px;
+  }
+  #contact .form {
+    padding: 40px 30px;
+  }
+  #contact img {
+    width: 500px;
+    height: 600px;
+  }
+  footer {
+    margin: 20px 50px;
+  }
+  .bookings {
+    padding: 20px 50px;
+  }
+  .bookings h1 {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 991px) {
+ header {
+    padding: 20px 30px;
+  }
+  .main {
+    padding: 20px 30px 0px;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  #about {
+    padding: 20px 30px;
+    flex-direction: column;
+  }
+   #about img {
+    width: 100%;
+    height: 50%;
+  }
+  #services {
+    padding: 20px 30px;
+    flex-direction: column-reverse;
+  }
+  #services img {
+    width: 100%;
+    height: 50%; 
+  }
+  .bookings {
+    padding: 20px 30px;
+  }
+  #contact  {
+    flex-direction: column-reverse;
+    padding: 20px 30px;
+  }
+  #contact img {
+    width: 100%;
+    height: 70%;
+  }
+  footer {
+    margin: 20px 30px;
+  }
+}
+@media (max-width: 650px) {
+  header {
+    padding: 20px 20px;
+  }
+  header h1 {
+    color: #fff;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+  }
+  header ul {
+    font-size: 0.5em;
+    letter-spacing: 1px;
+  }
+  .main {
+    position: relative;
+    padding: 20px 20px;
+    height: 700px;
+    margin: 0;
+  }
+
+  .main img {
+    width: 60%;
+    height: 300px;
+  }
+  .main h1 {
+    position: relative;
+    margin-top: 0;
+    font-size: 2em;
+  }
+  .main h1 i {
+    padding: 5px;
+  }
+
+  .main h1 :nth-child(1) {
+    position: relative;
+    color: #000000;
+    background-color: #fff;
+  }
+  .main h1 :nth-child(2) {
+    color: #fff;
+    background-color: #000000;
+  }
+  #about {
+    padding: 20px 20px;
+  }
+
+  #about h1 {
+    font-size: 2em;
+  }
+  #about p {
+    font-size: 0.8em;
+  }
+  #about img {
+    height: 70%;
+  }
+  #services {
+    padding: 20px 20px;
+  }
+  #services .service-text h2 {
+    font-size: 1.2em;
+  }
+  #services .service-text p {
+    font-size: 0.8em;
+  }
+  #services img {
+    width: 100%;
+    height: 70%;
+  }
+  #contact {
+    padding: 20px 20px;
+  }
+  #contact .form {
+    padding: 30px 20px;
+  }
+  #contact img {
+    width: 100%;
+    height: 70%;
+  }
+  #contact .form .inputBox input{
+    font-size: 13px;
+  }
+  #contact .form .inputBox textarea{
+    font-size: 13px;
+    min-height: 120px;
+  }
+  footer {
+    margin: 20px 20px;
+  }
+  footer p{
+    font-size: 0.8em;
+  }
+  .bookings h1 {
+    font-size: 0.8em;
+  }
+}
